@@ -9,11 +9,18 @@ Arabic Handwritten Text Recognition (AHTR) based on deep learning approaches rem
 
 ![image](https://user-images.githubusercontent.com/15616524/148753690-fbbc4fb7-1349-4095-a57c-3e2cf9aea17d.png)
 
-![](https://img.shields.io/static/v1?label=&message=Domain/Two-Stage-Architecture&color=orange&size=30)
-
-![image](https://user-images.githubusercontent.com/15616524/148754030-d1770017-c7e2-46a1-a0d0-3c24b3933b2e.png)
 
 
 ### License
 This work is only allowed for academic research use. For commercial use, please contact the author.
 
+
+### To test the global adaptation using the MADCAT dataset, run the following code
+
+python main.py
+
+
+
+![](https://img.shields.io/static/v1?label=&message=Two-Stage-Architecture&color=orange&size=30)
+
+![image](https://user-images.githubusercontent.com/15616524/148754140-de021a08-e187-4fb3-9206-ff98722702e1.png)
