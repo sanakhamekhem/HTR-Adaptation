@@ -11,11 +11,11 @@ Arabic Handwritten Text Recognition (AHTR) based on deep learning approaches rem
 
 
 
-### License
+##### License
 This work is only allowed for academic research use. For commercial use, please contact the author.
 
 
-### To test the global adaptation using the MADCAT dataset, run the following code
+##### To test the global adaptation using the MADCAT dataset, run the following code
 
 python main.py
 
