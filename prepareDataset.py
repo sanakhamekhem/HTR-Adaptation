@@ -6,7 +6,7 @@ Created on Fri Oct 27 13:44:27 2017
 @author: aradillas
 """
 import sys
-sys.path.append('/home/ahmed/Desktop/sana/RCNN/HTRTF/Modules')
+sys.path.append('RCNN/HTRTF/Modules')
 from utils import initialize_log
 import re
 import os
@@ -445,18 +445,18 @@ def create_dataset_h5_and_csv_file(selection_file, imgList, transcriptionList, s
 def main():
  
 	# Set the path to image folder
-	filepath = '/home/ahmed/Desktop/sana/RCNN/HTRTF/Projects/MADCAT-WriterDep-Global/allwriters.txt'
+	filepath = 'HTRTF/Projects/MADCAT-WriterDep-Global/allwriters.txt'
 	alwriters=''
 	setnumber='Set'
 	writercode=''
-	DataBasePath = '/home/ahmed/Desktop/sana/RCNN/imagesMADCAT/'
+	DataBasePath = 'RCNN/imagesMADCAT/'
  	###concat train and valid files to two files train and valid
 	import glob
 	import os
-	# for f in glob.glob("/home/ahmed/Desktop/sana/RCNN/HTRTF/Projects/MADCAT-WriterDep-Global/Set/*/list_train"):
-		# os.system("cat "+f+" >> /home/ahmed/Desktop/sana/RCNN/HTRTF/Projects/MADCAT-WriterDep-Global/Set/list_train")
-	# for f in glob.glob("/home/ahmed/Desktop/sana/RCNN/HTRTF/Projects/MADCAT-WriterDep-Global/Set/*/list_valid"):
-		# os.system("cat "+f+" >> /home/ahmed/Desktop/sana/RCNN/HTRTF/Projects/MADCAT-WriterDep-Global/Set/list_valid")
+	# for f in glob.glob("HTRTF/Projects/MADCAT-WriterDep-Global/Set/*/list_train"):
+		# os.system("cat "+f+" >> HTRTF/Projects/MADCAT-WriterDep-Global/Set/list_train")
+	# for f in glob.glob("HTRTF/Projects/MADCAT-WriterDep-Global/Set/*/list_valid"):
+		# os.system("cat "+f+" >> HTRTF/Projects/MADCAT-WriterDep-Global/Set/list_valid")
 
 	###end concat
 	with open(filepath) as fp:
@@ -468,19 +468,19 @@ def main():
 			writercode=line	   
 			writercode=writercode.replace('\r', '')
 			writercode=writercode.replace('\n', '')
-			img_list_file = '/home/ahmed/Desktop/sana/RCNN/HTRTF/Projects/MADCAT-WriterDep-Global/Set/lines.txt'
+			img_list_file = 'HTRTF/Projects/MADCAT-WriterDep-Global/Set/lines.txt'
 			
 			# Set paths to the .txt files containing the id of the images on each dataset
 
-			validation2_list_file = '/home/ahmed/Desktop/sana/RCNN/HTRTF/Projects/MADCAT-WriterDep-Global/Set/list_valid'
-			train_list_file = '/home/ahmed/Desktop/sana/RCNN/HTRTF/Projects/MADCAT-WriterDep-Global/Set/list_train'
-			test_list_file = '/home/ahmed/Desktop/sana/RCNN/HTRTF/Projects/MADCAT-WriterDep-Global/'+setnumber+'/'+writercode+'/list_test'
+			validation2_list_file = 'HTRTF/Projects/MADCAT-WriterDep-Global/Set/list_valid'
+			train_list_file = 'Projects/MADCAT-WriterDep-Global/Set/list_train'
+			test_list_file = 'HTRTF/Projects/MADCAT-WriterDep-Global/'+setnumber+'/'+writercode+'/list_test'
 			 
 			
 			
 			# Auxiliar files 
-			char_list_file_path = '/home/ahmed/Desktop/sana/RCNN/HTRTF/Projects/MADCAT-WriterDep-Global/'+setnumber+'/CHAR_LIST'
-			manage_database_log_path = '/home/ahmed/Desktop/sana/RCNN/HTRTF/Projects/MADCAT-WriterDep-Global/'+setnumber+'/'+writercode+'/read_database_log.txt'
+			char_list_file_path = 'HTRTF/Projects/MADCAT-WriterDep-Global/'+setnumber+'/CHAR_LIST'
+			manage_database_log_path = 'HTRTF/Projects/MADCAT-WriterDep-Global/'+setnumber+'/'+writercode+'/read_database_log.txt'
 			maxHeight = 70
 			maxWidth = 1000
 				 
