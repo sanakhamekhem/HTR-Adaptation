@@ -21,6 +21,7 @@ python main.py
 
 
 
-![](https://img.shields.io/static/v1?label=&message=Two-Stage-Architecture&color=orange&size=30)
+![](https://img.shields.io/static/v1?label=&message=The-Two-Stage-HTR-Architecture&color=orange&size=30)
 
-![image](https://user-images.githubusercontent.com/15616524/148754140-de021a08-e187-4fb3-9206-ff98722702e1.png)
+![image](https://user-images.githubusercontent.com/15616524/148754875-9ddd7455-b0be-46c8-9be4-b60daf1390ae.png)
+
