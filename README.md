@@ -19,12 +19,11 @@ This work is only allowed for academic research use. For commercial use, please 
 
 python main.py
 
-
-
-![](https://img.shields.io/static/v1?label=&message=The-Two-Stage-HTR-Architecture&color=orange&size=30)
-
-![image](https://user-images.githubusercontent.com/15616524/148754875-9ddd7455-b0be-46c8-9be4-b60daf1390ae.png)
-
 #### Experimental results of the writer adaptation strategies carried on the MADCAT dataset for 15 writers (Test samples per writer : 150, total test samples : 2250)
 
 ![image](https://user-images.githubusercontent.com/15616524/148755225-f648a36b-b128-4728-ab2d-a11a3988321d.png)
+
+#### An overview of the proposed two-stage fine-tuning process for the writer adaptation task
+![](https://img.shields.io/static/v1?label=&message=The-Two-Stage-HTR-Architecture&color=orange&size=30)
+
+![image](https://user-images.githubusercontent.com/15616524/148754875-9ddd7455-b0be-46c8-9be4-b60daf1390ae.png)
